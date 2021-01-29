@@ -7,7 +7,6 @@ export const ContainerLandingHomeMain = styled.div`
   display: flex;
   flex-wrap: wrap;
   background-image: url(${wallPaperGrey});
-  min-height: 1000px;
 `;
 
 export const ContainerLandingHomeLeft = styled.div`
@@ -22,17 +21,15 @@ export const ContainerLandingHomeLeft = styled.div`
 `;
 
 export const Flag = styled.img`
-  position: absolute;
-  top: -1rem;
   width: 100%;
   ${deviceMedia.phone`
     position: relative;
-    top: 0;
   `}
 `;
 export const ContainerAllIcon = styled.div`
   position: absolute;
   margin: 2rem;
+  top: 0;
   ${deviceMedia.phone`
     top:16px;
   `}
@@ -85,5 +82,7 @@ export const MainTitleRight = styled.h3`
 
 export const TitleVideo = styled.h3`
   text-align: center;
-  margin: 3rem 0 0 0;
+  width: 100%;
+  color: ${props => props.theme.palette.white};
+  margin: 3rem auto 3rem auto;
 `;

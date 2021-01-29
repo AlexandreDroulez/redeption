@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+
 import {
   ContainerLandingHomeNavBar,
   GuildName,
@@ -10,22 +10,19 @@ import {
   StyledLink,
 } from './styledComponents';
 import logo from '../../../../../assets/redemption.png';
+import { LINKS } from '../../../../../enums/links';
+import { displayNavbarLink } from './utils';
 
-const LandingHomeNavbar = () => {
+const LandingHomeNavbar = ({ pageShow, setPageShow }) => {
   return (
     <ContainerLandingHomeNavBar>
-      <Logo src={logo} />
+      <div onClick={() => setPageShow(LINKS.NAVBAR.ACCUEIL)}>
+        <Logo src={logo} alt="accueil" />
+      </div>
       <GuildName>RedemptïØn</GuildName>
       <TransparenteContainer>
         <GuildPreferences>Guilde PvP / RBG / ARENE</GuildPreferences>
-        <ContainerLink>
-          <Link href="/accueil">
-            <StyledLink>Accueil</StyledLink>
-          </Link>
-          <Link href="/infos">
-            <StyledLink>Infos</StyledLink>
-          </Link>
-        </ContainerLink>
+        <ContainerLink>{displayNavbarLink(LINKS.NAVBAR, pageShow, setPageShow)}</ContainerLink>
       </TransparenteContainer>
     </ContainerLandingHomeNavBar>
   );

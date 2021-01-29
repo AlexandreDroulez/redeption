@@ -1,54 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="beeef529-efba-4df1-b160-7f4cafae5b30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Logo_wow_nhil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/baniere_gris_nhil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/discord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jpeg/backdrop-874452.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jpeg/thumb-1920-1092358.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo_commu_nhil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/redemption.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/texture_gris_nhil-horde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/texture_rouge_nhil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/accueil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/infos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/styledComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/styledComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/screenScore1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/links/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Accueil/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Aides/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Aides/styledComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Aides/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Carousel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Carousel/styledComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/next/dist/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/next/dist/pages/_error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/03e25f13f5aa30aba829.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/359942d2c1fde83e61f1.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/60f530f3b999ab1440b3.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/6a37c11002b0a81cc0bf.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/7755c0417d715b228801.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/b86ca61c3db76a2f873f.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/c6623c55bb2b37b4cefc.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d67afafeea72adbfb92f.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/f753c8cf3d84854f15f5.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accueil.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/styledComponents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/Body/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/Body/styledComponents.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/infos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/styledComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/NavBar/styledComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/LandingHome/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/LandingHome/styledComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +42,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1mtGW6QYCHoEQjjXIrTx34rMzFt" />
   <component name="ProjectLevelVcsManager">
@@ -74,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Pages/LandingHome/Main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Pages/LandingHome/Infos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -85,14 +78,18 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Pages/LandingHome/Infos" />
+      <recent name="$PROJECT_DIR$/src/components/Pages/LandingHome/Main/Carousel" />
       <recent name="$PROJECT_DIR$/src/components/Pages/LandingHome/Main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Pages/LandingHome" />
       <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
